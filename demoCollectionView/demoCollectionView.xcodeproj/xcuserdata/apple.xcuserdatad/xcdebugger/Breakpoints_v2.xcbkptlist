@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "935F550E-FFB9-48F8-8E83-EE890760D146"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B111577A-A988-46A6-B857-78A6A4F21982"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "captureImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B111577A-A988-46A6-B857-78A6A4F21982 - 7e9f0885408958eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ScannerViewController.touchesBegan(_: Swift.Set&lt;__C.UITouch&gt;, with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+               <Location
+                  uuid = "B111577A-A988-46A6-B857-78A6A4F21982 - a6b190a3c0facc34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ScannerViewController.captureImage(__C.UIButton) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBF0F139-4737-46FC-ADEA-EBDC4D98037A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "capturePhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BBF0F139-4737-46FC-ADEA-EBDC4D98037A - c80cdca3a4760cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.CaptureSessionManager.capturePhoto() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "BBF0F139-4737-46FC-ADEA-EBDC4D98037A - c80cdca3a4760cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.CaptureSessionManager.capturePhoto() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDACB71E-B416-4225-85FB-7871249CA9EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "capturePhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDACB71E-B416-4225-85FB-7871249CA9EE - c80cdca3a4760f99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.CaptureSessionManager.capturePhoto() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "445">
+               </Location>
+               <Location
+                  uuid = "CDACB71E-B416-4225-85FB-7871249CA9EE - c80cdca3a4760f99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.CaptureSessionManager.capturePhoto() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6E30FB3-D9BB-40B9-BF96-87E64C6E63C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "captureOutput(_:didOutput:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E06CB90-DB62-4703-B1F0-1183F5504DA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "captureOutput(_:didOutput:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "489DD1A1-6C26-4B4C-808B-669A1BABFCC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/CaptureSessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "captureOutput(_:didOutput:from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "564DEF0E-57C6-4C32-BB8F-51BEC1A1E234"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "captureSessionManager(_:didFailWithError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA5F8571-501A-495D-BDA0-C50987097732"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "didStartCapturingPicture(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0789B607-CFCD-44FE-80AB-824BC9E94326"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "nextButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0789B607-CFCD-44FE-80AB-824BC9E94326 - 7a543f098e62e8ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIButton in demoCollectionView.EditScanViewController.nextButton.getter : __C.UIButton"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "0789B607-CFCD-44FE-80AB-824BC9E94326 - 7a543f098e62e8ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIButton in demoCollectionView.EditScanViewController.nextButton.getter : __C.UIButton"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87FBF218-3ED5-480D-8CB5-C0AF508FE62A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "pushReviewController()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87FBF218-3ED5-480D-8CB5-C0AF508FE62A - 363d19e286da8bad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.pushReviewController() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "87FBF218-3ED5-480D-8CB5-C0AF508FE62A - 363d19e286da8a6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.pushReviewController() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AE47152-5AB6-4D52-966F-9905296BE46B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9AE47152-5AB6-4D52-966F-9905296BE46B - eaa3c5745fa2932"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "1244">
+               </Location>
+               <Location
+                  uuid = "9AE47152-5AB6-4D52-966F-9905296BE46B - eaa3c5745fa2932"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF913566-59E7-449E-8923-43FB2F118577"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "cancelButtonTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF913566-59E7-449E-8923-43FB2F118577 - 363d19e286da8cfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.pushReviewController() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "AF913566-59E7-449E-8923-43FB2F118577 - 363d19e286da8cfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.pushReviewController() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "AF913566-59E7-449E-8923-43FB2F118577 - eb6969ba4fb052cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.EditScanViewController.cancelButtonTapped() -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Edit/EditScanViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C09CBDC4-7175-482F-BA13-37B7085BEC11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/ImageScannerVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C09CBDC4-7175-482F-BA13-37B7085BEC11 - bc9ab73e6fa038dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ImageScannerVC.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/ImageScannerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "C09CBDC4-7175-482F-BA13-37B7085BEC11 - bc9ab73e6fa0389b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ImageScannerVC.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/ImageScannerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "782AC4FF-1405-4B0B-A34F-911939955B4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
+            landmarkName = "captureSessionManager(_:didCapturePicture:withQuad:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F3B3A43-3C86-46D3-9748-B9E5195A7859"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "359"
+            endingLineNumber = "359"
+            landmarkName = "captureSessionManager(_:didCapturePicture:withQuad:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F3B3A43-3C86-46D3-9748-B9E5195A7859 - 768285c9c030f3c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ScannerViewController.captureSessionManager(_: demoCollectionView.CaptureSessionManager, didCapturePicture: __C.UIImage, withQuad: Swift.Optional&lt;demoCollectionView.Quadrilateral&gt;) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "359"
+                  endingLineNumber = "359"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "6F3B3A43-3C86-46D3-9748-B9E5195A7859 - 768285c9c030f3c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demoCollectionView.ScannerViewController.captureSessionManager(_: demoCollectionView.CaptureSessionManager, didCapturePicture: __C.UIImage, withQuad: Swift.Optional&lt;demoCollectionView.Quadrilateral&gt;) -&gt; ()"
+                  moduleName = "demoCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Work/Brinda/Traning/demoCollectionView/demoCollectionView/WeScan/Scan/ScannerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "359"
+                  endingLineNumber = "359"
+                  offsetFromSymbolStart = "2180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C79BDFC2-D0D7-468C-88AE-4BF1F2E11BB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/CropingImage/CropVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF75B909-A531-45E8-84D5-4581609F6C8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/CropingImage/CropVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BCC29A1-CC7A-49FA-9127-631FDD2BD240"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Common/QuadrilateralView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "drawQuad(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4744FB2-B74B-43B2-BD34-06007004D32C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "demoCollectionView/WeScan/Common/QuadrilateralView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "drawQuadrilateral(quad:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="demoKeyChain" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="illust 2" translatesAutoresizingMaskIntoConstraints="NO" id="fKW-Zd-BHn">
+                                <rect key="frame" x="80" y="50" width="215" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fKW-Zd-BHn" secondAttribute="height" multiplier="1:1" id="bwi-Gx-dZb" userLabel="aspect = 1:1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Back!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aQ-S5-2ec">
+                                <rect key="frame" x="30" y="295" width="315" height="20"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Provide your details." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDP-WD-wkq">
+                                <rect key="frame" x="30" y="345" width="315" height="17"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Your Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HXm-Br-qCb">
+                                <rect key="frame" x="30" y="392" width="315" height="43"/>
+                                <color key="backgroundColor" red="0.74546234659999999" green="0.86819707130000001" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Your Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BQ6-iR-5W9">
+                                <rect key="frame" x="30" y="455" width="315" height="43"/>
+                                <color key="backgroundColor" red="0.74546234659999999" green="0.86819707130000001" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="W5c-Vo-10w">
+                                <rect key="frame" x="30" y="518" width="315" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaL-Xk-qka">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="32"/>
+                                        <color key="backgroundColor" red="0.16862745098039217" green="0.78823529411764703" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Create User">
+                                            <color key="titleColor" red="0.74546234659999999" green="1" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="createUserBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKm-z7-E1R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeV-NO-tPk">
+                                        <rect key="frame" x="0.0" y="37" width="315" height="32"/>
+                                        <color key="backgroundColor" red="0.16862745100000001" green="0.78823529410000004" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Read User Data">
+                                            <color key="titleColor" red="0.74546234659999999" green="1" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="readUserBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRZ-vK-osd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQV-mo-czZ">
+                                        <rect key="frame" x="0.0" y="74" width="315" height="32"/>
+                                        <color key="backgroundColor" red="0.16862745100000001" green="0.78823529410000004" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Uodate User Data">
+                                            <color key="titleColor" red="0.74546234659999999" green="1" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="updateUserBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqy-uG-CN6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBb-qt-WsS">
+                                        <rect key="frame" x="0.0" y="111" width="315" height="32"/>
+                                        <color key="backgroundColor" red="0.16862745100000001" green="0.78823529410000004" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Delete User Data">
+                                            <color key="titleColor" red="0.74546234659999999" green="1" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="deleteUserBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1l-CM-xJq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZX-LD-CHU">
+                                        <rect key="frame" x="0.0" y="148" width="315" height="32"/>
+                                        <color key="backgroundColor" red="0.16862745100000001" green="0.78823529410000004" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Exit App">
+                                            <color key="titleColor" red="0.74546234659999999" green="1" blue="0.82906815840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="exitBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACz-Ty-Kce"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keychain Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmN-B8-Nak">
+                                <rect key="frame" x="0.0" y="35" width="375" height="20"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.039215686274509803" green="0.0039215686274509803" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qDP-WD-wkq" secondAttribute="trailing" constant="30" id="0ce-P1-C5I"/>
+                            <constraint firstItem="zmN-B8-Nak" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="2tB-lE-H4y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQ6-iR-5W9" secondAttribute="trailing" constant="30" id="CIW-Nk-PNx"/>
+                            <constraint firstItem="BQ6-iR-5W9" firstAttribute="top" secondItem="HXm-Br-qCb" secondAttribute="bottom" constant="20" id="FX2-oR-2MJ"/>
+                            <constraint firstItem="fKW-Zd-BHn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="GoA-tU-a1k"/>
+                            <constraint firstItem="fKW-Zd-BHn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="IaR-On-0wu"/>
+                            <constraint firstItem="2aQ-S5-2ec" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="KPL-cx-4MU"/>
+                            <constraint firstItem="BQ6-iR-5W9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="MFS-vd-BuQ"/>
+                            <constraint firstItem="HXm-Br-qCb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="PVz-dE-YjG"/>
+                            <constraint firstItem="qDP-WD-wkq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="UzM-z9-Ayg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zmN-B8-Nak" secondAttribute="trailing" id="Vgd-ac-rVW"/>
+                            <constraint firstItem="W5c-Vo-10w" firstAttribute="top" secondItem="BQ6-iR-5W9" secondAttribute="bottom" constant="20" id="Wzi-6r-WE6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2aQ-S5-2ec" secondAttribute="trailing" constant="30" id="b1r-fN-BFE"/>
+                            <constraint firstItem="2aQ-S5-2ec" firstAttribute="top" secondItem="fKW-Zd-BHn" secondAttribute="bottom" constant="30" id="gy7-U9-dgW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HXm-Br-qCb" secondAttribute="trailing" constant="30" id="lH3-gM-Do3"/>
+                            <constraint firstItem="qDP-WD-wkq" firstAttribute="top" secondItem="2aQ-S5-2ec" secondAttribute="bottom" constant="30" id="mhZ-dX-Dou"/>
+                            <constraint firstItem="fKW-Zd-BHn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ph3-4g-xhK"/>
+                            <constraint firstItem="zmN-B8-Nak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="usR-TN-oVv"/>
+                            <constraint firstItem="HXm-Br-qCb" firstAttribute="top" secondItem="qDP-WD-wkq" secondAttribute="bottom" constant="30" id="v2W-Zo-6RA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5c-Vo-10w" secondAttribute="trailing" constant="30" id="xAP-jd-7gN"/>
+                            <constraint firstItem="W5c-Vo-10w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="yZb-LK-emy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tfPassword" destination="BQ6-iR-5W9" id="6Wz-Wn-np9"/>
+                        <outlet property="tfUsername" destination="HXm-Br-qCb" id="IVZ-2a-SCg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="illust 2" width="354" height="316"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  demoMultipleLanguageSupport
+
+  Created by apple on 02/03/24.
+  
+*/
+/* table view source */
+"one" = "1";
+"two" = "2";
+"three" = "3";
+"four" = "4";
+"five" = "5";
+"six" = "6";
+
+
+/* Main storyboard */
+"hello" = "hello";
+"Settings" = "Settings";
+
+

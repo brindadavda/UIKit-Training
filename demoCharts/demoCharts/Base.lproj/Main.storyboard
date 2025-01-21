@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="demoCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NKZ-4b-wUy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIR-n0-RMC" customClass="BarChartView" customModule="DGCharts">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                        <subviews>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arF-qh-gOE">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                                <connections>
+                                                    <segue destination="E1u-MI-1rM" kind="embed" id="yGm-Tm-aW4"/>
+                                                </connections>
+                                            </containerView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="arF-qh-gOE" secondAttribute="trailing" id="3jI-K1-3La"/>
+                                            <constraint firstItem="arF-qh-gOE" firstAttribute="top" secondItem="AIR-n0-RMC" secondAttribute="top" id="5cI-cl-cPq"/>
+                                            <constraint firstAttribute="bottom" secondItem="arF-qh-gOE" secondAttribute="bottom" id="9DU-FV-jKu"/>
+                                            <constraint firstItem="arF-qh-gOE" firstAttribute="leading" secondItem="AIR-n0-RMC" secondAttribute="leading" id="ttY-rb-UWq"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGS-sc-ySG" customClass="BarChartView" customModule="DGCharts">
+                                        <rect key="frame" x="0.0" y="328.5" width="375" height="318.5"/>
+                                        <subviews>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eaG-Z5-PHw">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                            </containerView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstItem="eaG-Z5-PHw" firstAttribute="leading" secondItem="tGS-sc-ySG" secondAttribute="leading" id="73h-EQ-I7y"/>
+                                            <constraint firstAttribute="trailing" secondItem="eaG-Z5-PHw" secondAttribute="trailing" id="LNC-ha-PP6"/>
+                                            <constraint firstItem="eaG-Z5-PHw" firstAttribute="top" secondItem="tGS-sc-ySG" secondAttribute="top" id="tGF-WI-IyC"/>
+                                            <constraint firstAttribute="bottom" secondItem="eaG-Z5-PHw" secondAttribute="bottom" id="wFJ-Nj-FWK"/>
+                                        </constraints>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-1g-kOq" customClass="BarChartView" customModule="DGCharts">
+                                        <rect key="frame" x="0.0" y="647" width="375" height="0.0"/>
+                                        <subviews>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKs-YT-mv1">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                            </containerView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="iKs-YT-mv1" secondAttribute="bottom" id="9F6-0o-cmm"/>
+                                            <constraint firstAttribute="trailing" secondItem="iKs-YT-mv1" secondAttribute="trailing" id="Bhd-00-GAf"/>
+                                            <constraint firstItem="iKs-YT-mv1" firstAttribute="top" secondItem="cUm-1g-kOq" secondAttribute="top" id="M7e-SJ-0wn"/>
+                                            <constraint firstItem="iKs-YT-mv1" firstAttribute="leading" secondItem="cUm-1g-kOq" secondAttribute="leading" id="SNo-CP-o1D"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NKZ-4b-wUy" secondAttribute="trailing" id="Hq3-Ho-z60"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NKZ-4b-wUy" secondAttribute="bottom" id="htx-CF-7ya"/>
+                            <constraint firstItem="NKZ-4b-wUy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kBM-Zu-tEx"/>
+                            <constraint firstItem="NKZ-4b-wUy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vdt-0t-NaY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dailyBarChartView" destination="AIR-n0-RMC" id="fHL-jo-tKL"/>
+                        <outlet property="monthlyBarChartView" destination="tGS-sc-ySG" id="xIb-SI-D2l"/>
+                        <outlet property="weeklyBarChartView" destination="cUm-1g-kOq" id="NCs-Cs-4un"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="-34"/>
+        </scene>
+        <!--ChartVC-->
+        <scene sceneID="hzH-iK-Cci">
+            <objects>
+                <viewController id="TRY-E6-Gy0" customClass="ChartVC" customModule="demoCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xir-9f-n1S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mru-N2-WIq" customClass="FLChart" customModule="FLCharts">
+                                <rect key="frame" x="30" y="50" width="315" height="587"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oT3-EJ-zTg">
+                                        <rect key="frame" x="30" y="522" width="255" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Change chart"/>
+                                        <connections>
+                                            <action selector="changeChart:" destination="TRY-E6-Gy0" eventType="touchUpInside" id="RZ6-cL-5kO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="oT3-EJ-zTg" secondAttribute="trailing" constant="30" id="EHM-U6-KCc"/>
+                                    <constraint firstAttribute="bottom" secondItem="oT3-EJ-zTg" secondAttribute="bottom" constant="30" id="cJb-Aa-0s5"/>
+                                    <constraint firstItem="oT3-EJ-zTg" firstAttribute="leading" secondItem="mru-N2-WIq" secondAttribute="leading" constant="30" id="tbq-Ei-wdh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ivC-l7-h6Y"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="ivC-l7-h6Y" firstAttribute="bottom" secondItem="mru-N2-WIq" secondAttribute="bottom" constant="30" id="4mV-Bc-pqn"/>
+                            <constraint firstItem="mru-N2-WIq" firstAttribute="leading" secondItem="ivC-l7-h6Y" secondAttribute="leading" constant="30" id="Llu-yU-r9V"/>
+                            <constraint firstItem="ivC-l7-h6Y" firstAttribute="trailing" secondItem="mru-N2-WIq" secondAttribute="trailing" constant="30" id="paX-5P-bQq"/>
+                            <constraint firstItem="mru-N2-WIq" firstAttribute="top" secondItem="ivC-l7-h6Y" secondAttribute="top" constant="30" id="uVA-g8-Br0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barChartView" destination="mru-N2-WIq" id="KPu-6h-qZO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PyS-nj-fiY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186" y="-35"/>
+        </scene>
+        <!--Bar Chart View Controller-->
+        <scene sceneID="dhP-iJ-PFo">
+            <objects>
+                <viewController id="E1u-MI-1rM" customClass="BarChartViewController" customModule="demoCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="k0p-5c-Eep">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muG-x3-OtQ">
+                                <rect key="frame" x="289" y="4" width="78" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="7" maxX="10" maxY="7"/>
+                                <state key="normal" title="Options">
+                                    <color key="titleColor" red="0.24040704969999999" green="0.48385584349999999" blue="0.68625134229999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionsButtonTapped:" destination="E1u-MI-1rM" eventType="touchUpInside" id="Co7-6w-W26"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ukl-g9-wm9" customClass="BarChartView" customModule="DGCharts">
+                                <rect key="frame" x="0.0" y="47" width="375" height="481"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="oOI-oW-H7A">
+                                <rect key="frame" x="6" y="553" width="285" height="31"/>
+                                <connections>
+                                    <action selector="slidersValueChanged:" destination="E1u-MI-1rM" eventType="valueChanged" id="ghm-Us-yVf"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="Fxg-Ne-IU6">
+                                <rect key="frame" x="6" y="591" width="285" height="31"/>
+                                <connections>
+                                    <action selector="slidersValueChanged:" destination="E1u-MI-1rM" eventType="touchUpInside" id="NwS-6d-KcP"/>
+                                </connections>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WCb-wb-GvA">
+                                <rect key="frame" x="297" y="591" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="D6R-fj-WkL"/>
+                                    <constraint firstAttribute="height" constant="30" id="txi-kj-cCh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AEc-an-OHQ">
+                                <rect key="frame" x="297" y="553" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gVc-Ae-gVV"/>
+                                    <constraint firstAttribute="width" constant="70" id="ssz-cI-cac"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fKE-rN-ZLU"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WCb-wb-GvA" firstAttribute="leading" secondItem="Fxg-Ne-IU6" secondAttribute="trailing" constant="8" id="6x1-NH-1xm"/>
+                            <constraint firstItem="oOI-oW-H7A" firstAttribute="centerY" secondItem="AEc-an-OHQ" secondAttribute="centerY" id="9mN-Fv-p2F"/>
+                            <constraint firstItem="fKE-rN-ZLU" firstAttribute="trailing" secondItem="AEc-an-OHQ" secondAttribute="trailing" constant="8" id="Li5-IL-6pD"/>
+                            <constraint firstAttribute="bottom" secondItem="Fxg-Ne-IU6" secondAttribute="bottom" constant="26" id="PKM-JJ-jTW"/>
+                            <constraint firstItem="fKE-rN-ZLU" firstAttribute="trailing" secondItem="WCb-wb-GvA" secondAttribute="trailing" constant="8" id="RZD-CZ-oSw"/>
+                            <constraint firstItem="ukl-g9-wm9" firstAttribute="top" secondItem="k0p-5c-Eep" secondAttribute="top" constant="47" id="TY4-3s-DES"/>
+                            <constraint firstItem="ukl-g9-wm9" firstAttribute="leading" secondItem="fKE-rN-ZLU" secondAttribute="leading" id="Ucc-Bz-Pgp"/>
+                            <constraint firstItem="oOI-oW-H7A" firstAttribute="top" secondItem="ukl-g9-wm9" secondAttribute="bottom" constant="25" id="ZuH-Th-0fz"/>
+                            <constraint firstItem="fKE-rN-ZLU" firstAttribute="trailing" secondItem="muG-x3-OtQ" secondAttribute="trailing" constant="8" id="b4q-9s-JXN"/>
+                            <constraint firstItem="AEc-an-OHQ" firstAttribute="leading" secondItem="oOI-oW-H7A" secondAttribute="trailing" constant="8" id="bdl-0q-ZtS"/>
+                            <constraint firstItem="fKE-rN-ZLU" firstAttribute="trailing" secondItem="ukl-g9-wm9" secondAttribute="trailing" id="bpF-eW-q9M"/>
+                            <constraint firstItem="Fxg-Ne-IU6" firstAttribute="leading" secondItem="fKE-rN-ZLU" secondAttribute="leading" constant="8" id="cdb-sy-z0O"/>
+                            <constraint firstItem="Fxg-Ne-IU6" firstAttribute="top" secondItem="oOI-oW-H7A" secondAttribute="bottom" constant="8" id="dM6-c3-4xS"/>
+                            <constraint firstItem="oOI-oW-H7A" firstAttribute="leading" secondItem="fKE-rN-ZLU" secondAttribute="leading" constant="8" id="l4t-rO-Pfr"/>
+                            <constraint firstItem="WCb-wb-GvA" firstAttribute="centerY" secondItem="Fxg-Ne-IU6" secondAttribute="centerY" id="nmS-NF-ljh"/>
+                            <constraint firstItem="muG-x3-OtQ" firstAttribute="top" secondItem="k0p-5c-Eep" secondAttribute="top" constant="4" id="vn0-Gt-1fq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="ukl-g9-wm9" id="gaS-ZV-OTI"/>
+                        <outlet property="optionsButton" destination="muG-x3-OtQ" id="3pw-XG-lLv"/>
+                        <outlet property="sliderTextX" destination="WCb-wb-GvA" id="yQe-3L-644"/>
+                        <outlet property="sliderTextY" destination="AEc-an-OHQ" id="EnI-CJ-ae0"/>
+                        <outlet property="sliderX" destination="oOI-oW-H7A" id="f0n-VW-R1b"/>
+                        <outlet property="sliderY" destination="Fxg-Ne-IU6" id="h42-do-tq0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04y-7g-JXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1620" y="296"/>
+        </scene>
+        <!--Bar Chart View Controller-->
+        <scene sceneID="13Y-4e-Nsm">
+            <objects>
+                <viewController id="NaV-Sl-Zk9" customClass="BarChartViewController" customModule="demoCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="XLN-fF-eRV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12t-Mk-vJz">
+                                <rect key="frame" x="289" y="4" width="78" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="7" maxX="10" maxY="7"/>
+                                <state key="normal" title="Options">
+                                    <color key="titleColor" red="0.24040704969999999" green="0.48385584349999999" blue="0.68625134229999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99T-11-HLz" customClass="BarChartView" customModule="DGCharts">
+                                <rect key="frame" x="0.0" y="47" width="375" height="501"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="oY3-FH-9lv">
+                                <rect key="frame" x="6" y="573" width="285" height="31"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="Mgf-FL-jBc">
+                                <rect key="frame" x="6" y="611" width="285" height="31"/>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QbM-SZ-wuM">
+                                <rect key="frame" x="297" y="611" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="daQ-TJ-UKt"/>
+                                    <constraint firstAttribute="height" constant="30" id="tRR-FJ-CCE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k90-ON-wmL">
+                                <rect key="frame" x="297" y="573" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="P5K-ur-osB"/>
+                                    <constraint firstAttribute="height" constant="30" id="nF5-9i-5lS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4M0-CE-ij3"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oY3-FH-9lv" firstAttribute="top" secondItem="99T-11-HLz" secondAttribute="bottom" constant="25" id="Cu8-vb-ehy"/>
+                            <constraint firstItem="12t-Mk-vJz" firstAttribute="top" secondItem="XLN-fF-eRV" secondAttribute="top" constant="4" id="FHB-Nk-Z1N"/>
+                            <constraint firstItem="oY3-FH-9lv" firstAttribute="centerY" secondItem="k90-ON-wmL" secondAttribute="centerY" id="HeJ-0Y-0LM"/>
+                            <constraint firstItem="Mgf-FL-jBc" firstAttribute="leading" secondItem="4M0-CE-ij3" secondAttribute="leading" constant="8" id="POG-tO-QoR"/>
+                            <constraint firstItem="k90-ON-wmL" firstAttribute="leading" secondItem="oY3-FH-9lv" secondAttribute="trailing" constant="8" id="WZ5-Fm-VHf"/>
+                            <constraint firstItem="QbM-SZ-wuM" firstAttribute="leading" secondItem="Mgf-FL-jBc" secondAttribute="trailing" constant="8" id="XmK-Ag-HIX"/>
+                            <constraint firstItem="Mgf-FL-jBc" firstAttribute="top" secondItem="oY3-FH-9lv" secondAttribute="bottom" constant="8" id="XoU-0a-cWl"/>
+                            <constraint firstItem="4M0-CE-ij3" firstAttribute="trailing" secondItem="12t-Mk-vJz" secondAttribute="trailing" constant="8" id="h4n-a0-mX7"/>
+                            <constraint firstItem="QbM-SZ-wuM" firstAttribute="centerY" secondItem="Mgf-FL-jBc" secondAttribute="centerY" id="jHW-lc-3Pw"/>
+                            <constraint firstItem="oY3-FH-9lv" firstAttribute="leading" secondItem="4M0-CE-ij3" secondAttribute="leading" constant="8" id="khc-3L-BDo"/>
+                            <constraint firstItem="99T-11-HLz" firstAttribute="leading" secondItem="4M0-CE-ij3" secondAttribute="leading" id="mBj-PU-5FC"/>
+                            <constraint firstItem="4M0-CE-ij3" firstAttribute="trailing" secondItem="QbM-SZ-wuM" secondAttribute="trailing" constant="8" id="mOE-IF-Onl"/>
+                            <constraint firstItem="99T-11-HLz" firstAttribute="top" secondItem="XLN-fF-eRV" secondAttribute="top" constant="47" id="oYB-Xk-lRx"/>
+                            <constraint firstAttribute="bottom" secondItem="Mgf-FL-jBc" secondAttribute="bottom" constant="26" id="pyj-0k-JKM"/>
+                            <constraint firstItem="4M0-CE-ij3" firstAttribute="trailing" secondItem="99T-11-HLz" secondAttribute="trailing" id="qbg-ln-eGD"/>
+                            <constraint firstItem="4M0-CE-ij3" firstAttribute="trailing" secondItem="k90-ON-wmL" secondAttribute="trailing" constant="8" id="zuI-gt-RBK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDH-7j-ZGl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1070" y="658"/>
+        </scene>
+        <!--Bar Chart View Controller-->
+        <scene sceneID="sMs-ki-Qtr">
+            <objects>
+                <viewController id="A6s-zY-ljM" customClass="BarChartViewController" customModule="demoCharts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="pVH-YG-HhY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eB-Oc-dev">
+                                <rect key="frame" x="289" y="4" width="78" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="7" maxX="10" maxY="7"/>
+                                <state key="normal" title="Options">
+                                    <color key="titleColor" red="0.24040704969999999" green="0.48385584349999999" blue="0.68625134229999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ea-Qi-NFp" customClass="BarChartView" customModule="DGCharts">
+                                <rect key="frame" x="0.0" y="47" width="375" height="501"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="500" translatesAutoresizingMaskIntoConstraints="NO" id="TxY-1Q-rry">
+                                <rect key="frame" x="6" y="573" width="285" height="31"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="mZG-vI-dYR">
+                                <rect key="frame" x="6" y="611" width="285" height="31"/>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j3I-g5-eQA">
+                                <rect key="frame" x="297" y="611" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="RLA-6P-J1g"/>
+                                    <constraint firstAttribute="height" constant="30" id="TBQ-5M-J5J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="500" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oPS-0A-WBa">
+                                <rect key="frame" x="297" y="573" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0Sf-dB-F2U"/>
+                                    <constraint firstAttribute="width" constant="70" id="Hgn-eJ-RnX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YXd-xH-Ncu"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j3I-g5-eQA" firstAttribute="leading" secondItem="mZG-vI-dYR" secondAttribute="trailing" constant="8" id="01b-ZC-icR"/>
+                            <constraint firstItem="8Ea-Qi-NFp" firstAttribute="top" secondItem="pVH-YG-HhY" secondAttribute="top" constant="47" id="0j7-OQ-6e5"/>
+                            <constraint firstItem="oPS-0A-WBa" firstAttribute="leading" secondItem="TxY-1Q-rry" secondAttribute="trailing" constant="8" id="55O-om-AJN"/>
+                            <constraint firstItem="TxY-1Q-rry" firstAttribute="top" secondItem="8Ea-Qi-NFp" secondAttribute="bottom" constant="25" id="AnP-pg-bes"/>
+                            <constraint firstItem="TxY-1Q-rry" firstAttribute="centerY" secondItem="oPS-0A-WBa" secondAttribute="centerY" id="JP7-h9-iK7"/>
+                            <constraint firstItem="YXd-xH-Ncu" firstAttribute="trailing" secondItem="oPS-0A-WBa" secondAttribute="trailing" constant="8" id="ONC-h4-akv"/>
+                            <constraint firstItem="YXd-xH-Ncu" firstAttribute="trailing" secondItem="8Ea-Qi-NFp" secondAttribute="trailing" id="TIG-F2-EUl"/>
+                            <constraint firstItem="YXd-xH-Ncu" firstAttribute="trailing" secondItem="j3I-g5-eQA" secondAttribute="trailing" constant="8" id="UzA-Q5-gYX"/>
+                            <constraint firstItem="8Ea-Qi-NFp" firstAttribute="leading" secondItem="YXd-xH-Ncu" secondAttribute="leading" id="Wjn-GH-kB8"/>
+                            <constraint firstItem="6eB-Oc-dev" firstAttribute="top" secondItem="pVH-YG-HhY" secondAttribute="top" constant="4" id="Xji-za-w0h"/>
+                            <constraint firstItem="j3I-g5-eQA" firstAttribute="centerY" secondItem="mZG-vI-dYR" secondAttribute="centerY" id="amw-GJ-18j"/>
+                            <constraint firstAttribute="bottom" secondItem="mZG-vI-dYR" secondAttribute="bottom" constant="26" id="iwU-Ff-ko1"/>
+                            <constraint firstItem="YXd-xH-Ncu" firstAttribute="trailing" secondItem="6eB-Oc-dev" secondAttribute="trailing" constant="8" id="ot5-PP-W8T"/>
+                            <constraint firstItem="TxY-1Q-rry" firstAttribute="leading" secondItem="YXd-xH-Ncu" secondAttribute="leading" constant="8" id="rI5-am-pjF"/>
+                            <constraint firstItem="mZG-vI-dYR" firstAttribute="leading" secondItem="YXd-xH-Ncu" secondAttribute="leading" constant="8" id="x8L-zD-hub"/>
+                            <constraint firstItem="mZG-vI-dYR" firstAttribute="top" secondItem="TxY-1Q-rry" secondAttribute="bottom" constant="8" id="zYj-Jp-z6J"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAW-XC-M2l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1367" y="-130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

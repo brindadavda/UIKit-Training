@@ -1,0 +1,17 @@
+query GetUserData{
+  users {
+    data {
+      id
+      name
+      username
+      email
+      posts {
+        data {
+          id
+          title
+          body
+        }
+      }
+    }
+  }
+}

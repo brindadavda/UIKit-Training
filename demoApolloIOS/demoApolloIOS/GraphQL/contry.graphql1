@@ -1,0 +1,27 @@
+query GetAllCountries {
+  countries {
+    code
+    name
+    capital
+    emoji
+  }
+}
+
+
+mutation AddCountry($code: String!, $name: String!, $capital: String, $emoji: String) {
+  addCountry(code: $code, name: $name, capital: $capital, emoji: $emoji) {
+    code
+    name
+    capital
+    emoji
+  }
+}
+
+mutation DeleteCountry($code: String!) {
+  deleteCountry(code: $code) {
+    code
+    name
+    capital
+    emoji
+  }
+}

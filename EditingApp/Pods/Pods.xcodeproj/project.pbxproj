@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31C731E1D92A46A86B580AE667C9D567 /* PixelSDK-GPUImage3 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0421767B1EEFA4DA0BFF17DEFC1D7843 /* Build configuration list for PBXAggregateTarget "PixelSDK-GPUImage3" */;
+			buildPhases = (
+				7EDCAB74296F9FAC6F2B9316EBC8258F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "PixelSDK-GPUImage3";
+		};
+		E4CCE2DEE87A7CB6ED83791A3E4813FB /* PixelSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 367600C5EFB28704E952DDEE49A75A38 /* Build configuration list for PBXAggregateTarget "PixelSDK" */;
+			buildPhases = (
+				963D01246719166B796D8683973D74E9 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				AA5A6564B46A0DE441D2498B4159FF89 /* PBXTargetDependency */,
+			);
+			name = PixelSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24367EC0196C66F8842A950C8DE2107A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A05FA9CE8E1C484C03438821DAFD997 /* Pods-EditingApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57280326F35BA3A339B8B3557BCF3912 /* Pods-EditingApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9570DCB8039322E3506E84BB08035DB /* Pods-EditingApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F09A8B170E6570C2E73F286174DED9 /* Pods-EditingApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B4274B9CAEA1F855187E60BA90FA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C731E1D92A46A86B580AE667C9D567;
+			remoteInfo = "PixelSDK-GPUImage3";
+		};
+		3E9F3E4AE3989A4A5261A2F015330394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C731E1D92A46A86B580AE667C9D567;
+			remoteInfo = "PixelSDK-GPUImage3";
+		};
+		9A7E6CB39AE3C921ED9AAB0889DAB981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CCE2DEE87A7CB6ED83791A3E4813FB;
+			remoteInfo = PixelSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F17AAD104459A88D44032C91621CE4 /* PixelSDK-GPUImage3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PixelSDK-GPUImage3.release.xcconfig"; sourceTree = "<group>"; };
+		10BADC3393B04F8F8126D9FFB8BD3A17 /* PixelSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixelSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		21F7E4304E2644A5B01386E0B4263032 /* Pods-EditingApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EditingApp"; path = Pods_EditingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F09A8B170E6570C2E73F286174DED9 /* Pods-EditingApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EditingApp-dummy.m"; sourceTree = "<group>"; };
+		33245948F042820654EA5488FAC3125E /* Pods-EditingApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EditingApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33FF3D14AB1E9B204E685C89A6FDA902 /* GPUImage.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GPUImage.xcframework; path = framework/Build/GPUImage.xcframework; sourceTree = "<group>"; };
+		4A5AC0300B0B8D792C098EF0EEF448C5 /* PixelSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4E28CEA89A28F698CD6777B71B103293 /* Pods-EditingApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EditingApp-frameworks.sh"; sourceTree = "<group>"; };
+		4E2E7157A7F5843686580CA85D80EE8B /* Pods-EditingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EditingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		57280326F35BA3A339B8B3557BCF3912 /* Pods-EditingApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EditingApp-umbrella.h"; sourceTree = "<group>"; };
+		5D9F66B3E63FF699123F2C028046D3F2 /* Pods-EditingApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EditingApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		62F39646A10F1CA39133F4CFD4EF665B /* Pods-EditingApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EditingApp.modulemap"; sourceTree = "<group>"; };
+		6B9F670E8D5BBF0F38B5DED6D5C4A986 /* PixelSDK-GPUImage3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PixelSDK-GPUImage3.debug.xcconfig"; sourceTree = "<group>"; };
+		70D446746F06642085682CADBD877C98 /* Pods-EditingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EditingApp.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83762A96A9A5871F9AB3C03571E5032E /* PixelSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelSDK.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B35C562308D0B339CC085EF9987A819E /* Pods-EditingApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EditingApp-Info.plist"; sourceTree = "<group>"; };
+		B4A6FADB9B55BB78895680A2B6BC998A /* PixelSDK-GPUImage3-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PixelSDK-GPUImage3-xcframeworks.sh"; sourceTree = "<group>"; };
+		EF202458552D4C3D446C08519AA61DB4 /* PixelSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PixelSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C11137641EF3D06BF7A828ED5845F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24367EC0196C66F8842A950C8DE2107A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0507B1EEAFA59C01700F0031A282D9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F7E4304E2644A5B01386E0B4263032 /* Pods-EditingApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308B249B54E439D9245189F6AA8C69EC /* PixelSDK-GPUImage3 */ = {
+			isa = PBXGroup;
+			children = (
+				A83C552DD43E530E571A5C59BE7DB17B /* Frameworks */,
+				A3B717446483283FBB6B96F1B5B854C5 /* Support Files */,
+			);
+			name = "PixelSDK-GPUImage3";
+			path = "PixelSDK-GPUImage3";
+			sourceTree = "<group>";
+		};
+		32719FF20071F388F34F061C7CFAB3F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF202458552D4C3D446C08519AA61DB4 /* PixelSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CCD1E1181D1B086833A7F00E743E516 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7769F3413B2D3D7925BE8D133F6B36D5 /* Pods-EditingApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7769F3413B2D3D7925BE8D133F6B36D5 /* Pods-EditingApp */ = {
+			isa = PBXGroup;
+			children = (
+				62F39646A10F1CA39133F4CFD4EF665B /* Pods-EditingApp.modulemap */,
+				33245948F042820654EA5488FAC3125E /* Pods-EditingApp-acknowledgements.markdown */,
+				5D9F66B3E63FF699123F2C028046D3F2 /* Pods-EditingApp-acknowledgements.plist */,
+				26F09A8B170E6570C2E73F286174DED9 /* Pods-EditingApp-dummy.m */,
+				4E28CEA89A28F698CD6777B71B103293 /* Pods-EditingApp-frameworks.sh */,
+				B35C562308D0B339CC085EF9987A819E /* Pods-EditingApp-Info.plist */,
+				57280326F35BA3A339B8B3557BCF3912 /* Pods-EditingApp-umbrella.h */,
+				4E2E7157A7F5843686580CA85D80EE8B /* Pods-EditingApp.debug.xcconfig */,
+				70D446746F06642085682CADBD877C98 /* Pods-EditingApp.release.xcconfig */,
+			);
+			name = "Pods-EditingApp";
+			path = "Target Support Files/Pods-EditingApp";
+			sourceTree = "<group>";
+		};
+		A3B717446483283FBB6B96F1B5B854C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A6FADB9B55BB78895680A2B6BC998A /* PixelSDK-GPUImage3-xcframeworks.sh */,
+				6B9F670E8D5BBF0F38B5DED6D5C4A986 /* PixelSDK-GPUImage3.debug.xcconfig */,
+				06F17AAD104459A88D44032C91621CE4 /* PixelSDK-GPUImage3.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PixelSDK-GPUImage3";
+			sourceTree = "<group>";
+		};
+		A83C552DD43E530E571A5C59BE7DB17B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33FF3D14AB1E9B204E685C89A6FDA902 /* GPUImage.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E7477ACC4A7AD79E648D437C28E04E84 /* Pods */,
+				0507B1EEAFA59C01700F0031A282D9A0 /* Products */,
+				4CCD1E1181D1B086833A7F00E743E516 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6306FD902436619F392AE920EBC22B /* PixelSDK */ = {
+			isa = PBXGroup;
+			children = (
+				32719FF20071F388F34F061C7CFAB3F7 /* Frameworks */,
+				E8F3F162B97464E1E86403410279B58E /* Support Files */,
+			);
+			name = PixelSDK;
+			path = PixelSDK;
+			sourceTree = "<group>";
+		};
+		E7477ACC4A7AD79E648D437C28E04E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD6306FD902436619F392AE920EBC22B /* PixelSDK */,
+				308B249B54E439D9245189F6AA8C69EC /* PixelSDK-GPUImage3 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8F3F162B97464E1E86403410279B58E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10BADC3393B04F8F8126D9FFB8BD3A17 /* PixelSDK-xcframeworks.sh */,
+				4A5AC0300B0B8D792C098EF0EEF448C5 /* PixelSDK.debug.xcconfig */,
+				83762A96A9A5871F9AB3C03571E5032E /* PixelSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PixelSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5BADEFE99CE49584F9E4B8771CBB7F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05FA9CE8E1C484C03438821DAFD997 /* Pods-EditingApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB18A104A04453E9BBFCB24A232878AF /* Pods-EditingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FC0E5051554397018F72DE584C2378 /* Build configuration list for PBXNativeTarget "Pods-EditingApp" */;
+			buildPhases = (
+				E5BADEFE99CE49584F9E4B8771CBB7F6 /* Headers */,
+				93AD72961E82B043A257BC5518603CBD /* Sources */,
+				8C11137641EF3D06BF7A828ED5845F56 /* Frameworks */,
+				AA66B803F32087E64F801F6FC6175745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4350748FE66CD609983420A60015EF /* PBXTargetDependency */,
+				E0E1944E1DCB2770CDA4E413C04E10DF /* PBXTargetDependency */,
+			);
+			name = "Pods-EditingApp";
+			productName = Pods_EditingApp;
+			productReference = 21F7E4304E2644A5B01386E0B4263032 /* Pods-EditingApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0507B1EEAFA59C01700F0031A282D9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4CCE2DEE87A7CB6ED83791A3E4813FB /* PixelSDK */,
+				31C731E1D92A46A86B580AE667C9D567 /* PixelSDK-GPUImage3 */,
+				BB18A104A04453E9BBFCB24A232878AF /* Pods-EditingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA66B803F32087E64F801F6FC6175745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EDCAB74296F9FAC6F2B9316EBC8258F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixelSDK-GPUImage3/PixelSDK-GPUImage3-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixelSDK-GPUImage3/PixelSDK-GPUImage3-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/PixelSDK-GPUImage3/PixelSDK-GPUImage3-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963D01246719166B796D8683973D74E9 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixelSDK/PixelSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/PixelSDK/PixelSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/PixelSDK/PixelSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AD72961E82B043A257BC5518603CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9570DCB8039322E3506E84BB08035DB /* Pods-EditingApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4350748FE66CD609983420A60015EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelSDK;
+			target = E4CCE2DEE87A7CB6ED83791A3E4813FB /* PixelSDK */;
+			targetProxy = 9A7E6CB39AE3C921ED9AAB0889DAB981 /* PBXContainerItemProxy */;
+		};
+		AA5A6564B46A0DE441D2498B4159FF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PixelSDK-GPUImage3";
+			target = 31C731E1D92A46A86B580AE667C9D567 /* PixelSDK-GPUImage3 */;
+			targetProxy = 02B4274B9CAEA1F855187E60BA90FA54 /* PBXContainerItemProxy */;
+		};
+		E0E1944E1DCB2770CDA4E413C04E10DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PixelSDK-GPUImage3";
+			target = 31C731E1D92A46A86B580AE667C9D567 /* PixelSDK-GPUImage3 */;
+			targetProxy = 3E9F3E4AE3989A4A5261A2F015330394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		341DE732ED2EC9DE79366FDE6B263B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D446746F06642085682CADBD877C98 /* Pods-EditingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EditingApp/Pods-EditingApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EditingApp/Pods-EditingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		727403B204EB351CE7041A4B1E9F0AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9F670E8D5BBF0F38B5DED6D5C4A986 /* PixelSDK-GPUImage3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E3C2305736AE7C640691245984CFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83762A96A9A5871F9AB3C03571E5032E /* PixelSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C411F7FAC016D3A630A88898BCA1EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2E7157A7F5843686580CA85D80EE8B /* Pods-EditingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EditingApp/Pods-EditingApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EditingApp/Pods-EditingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7C8BEEF18E33D18178657301BC365F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F17AAD104459A88D44032C91621CE4 /* PixelSDK-GPUImage3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1020BAD4F7E671A97D09B1A373B2FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5AC0300B0B8D792C098EF0EEF448C5 /* PixelSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0421767B1EEFA4DA0BFF17DEFC1D7843 /* Build configuration list for PBXAggregateTarget "PixelSDK-GPUImage3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727403B204EB351CE7041A4B1E9F0AE7 /* Debug */,
+				E7C8BEEF18E33D18178657301BC365F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367600C5EFB28704E952DDEE49A75A38 /* Build configuration list for PBXAggregateTarget "PixelSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1020BAD4F7E671A97D09B1A373B2FB9 /* Debug */,
+				A5E3C2305736AE7C640691245984CFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FC0E5051554397018F72DE584C2378 /* Build configuration list for PBXNativeTarget "Pods-EditingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C411F7FAC016D3A630A88898BCA1EFBC /* Debug */,
+				341DE732ED2EC9DE79366FDE6B263B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

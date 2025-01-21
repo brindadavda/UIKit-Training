@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; configuration.title = "Settings"; ObjectID = "72N-tL-Iwu"; */
+"72N-tL-Iwu.configuration.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "72N-tL-Iwu"; */
+"72N-tL-Iwu.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Switch Language"; ObjectID = "PGJ-8l-899"; */
+"PGJ-8l-899.configuration.title" = "Switch Language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PGJ-8l-899"; */
+"PGJ-8l-899.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "hello"; ObjectID = "VK9-hn-Xjf"; */
+"VK9-hn-Xjf.text" = "hello";
+
+/* Class = "UILabel"; text = "Language Changed"; ObjectID = "YBx-lK-u3l"; */
+"YBx-lK-u3l.text" = "Language Changed";

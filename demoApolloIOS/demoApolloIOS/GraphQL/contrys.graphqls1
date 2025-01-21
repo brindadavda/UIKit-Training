@@ -1,0 +1,19 @@
+# Standard GraphQL Schema Types
+# Define the root Query type
+type Query {
+  countries: [Country]
+}
+
+# Define the Country type
+type Country {
+  code: String
+  name: String
+  capital: String
+  emoji: String
+}
+
+type Mutation {
+  addCountry(code: String!, name: String!, capital: String, emoji: String): Country
+  deleteCountry(code: String!): Country
+}
+

@@ -1,0 +1,22 @@
+PODS:
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - FLCharts (1.9.0)
+
+DEPENDENCIES:
+  - DGCharts
+  - FLCharts
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - FLCharts
+
+SPEC CHECKSUMS:
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  FLCharts: 32914f511a56b6698e030efe0315a320dbb6428e
+
+PODFILE CHECKSUM: c9e57af3f6e14022e17fa9adb66f70e683205f62
+
+COCOAPODS: 1.15.2

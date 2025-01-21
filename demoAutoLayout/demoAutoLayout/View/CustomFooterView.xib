@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomFooterView" customModule="demoAutoLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ng5-PL-WTH">
+                    <rect key="frame" x="10" y="10" width="300" height="30"/>
+                    <color key="backgroundColor" red="0.86658701018624884" green="0.96721984672031625" blue="0.9725920557975769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-47-Ufg">
+                    <rect key="frame" x="10" y="45" width="300" height="30"/>
+                    <color key="backgroundColor" red="0.8666234612" green="0.97015553710000002" blue="0.97378879789999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgJ-bu-Yqu">
+                    <rect key="frame" x="310" y="10.5" width="60" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="7Vl-7p-dP3"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="plus.circle.fill" catalog="system">
+                        <imageReference key="image" image="plus" catalog="system" renderingMode="original" variableValue="5.5511151231257827e-17"/>
+                    </state>
+                    <connections>
+                        <action selector="addTodo:" destination="iN0-l3-epB" eventType="touchUpInside" id="f6i-62-ICA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <accessibility key="accessibilityConfiguration" identifier="customFooter"/>
+            <constraints>
+                <constraint firstItem="TgJ-bu-Yqu" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.65" id="4vD-4N-ZTz"/>
+                <constraint firstItem="gbX-47-Ufg" firstAttribute="top" secondItem="Ng5-PL-WTH" secondAttribute="bottom" constant="5" id="ERm-1A-4LP"/>
+                <constraint firstItem="gbX-47-Ufg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="GEX-3t-IZP"/>
+                <constraint firstItem="gbX-47-Ufg" firstAttribute="height" secondItem="Ng5-PL-WTH" secondAttribute="height" id="M2b-nC-EAa"/>
+                <constraint firstItem="Ng5-PL-WTH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="TIV-Fe-E5o"/>
+                <constraint firstItem="gbX-47-Ufg" firstAttribute="width" secondItem="Ng5-PL-WTH" secondAttribute="width" id="Wi2-QU-Akg"/>
+                <constraint firstItem="TgJ-bu-Yqu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="c7g-Vk-nBF"/>
+                <constraint firstItem="Ng5-PL-WTH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="f4V-YU-ttb"/>
+                <constraint firstItem="Ng5-PL-WTH" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="hZS-qV-rbY"/>
+                <constraint firstItem="Ng5-PL-WTH" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="les-O3-4fg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TgJ-bu-Yqu" secondAttribute="trailing" constant="5" id="veI-Wf-Amt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="todoDescriptionTF" destination="gbX-47-Ufg" id="2bi-ZJ-04l"/>
+                <outlet property="todoTitleTF" destination="Ng5-PL-WTH" id="v49-E7-hHU"/>
+            </connections>
+            <point key="canvasLocation" x="-31.199999999999999" y="100.74962518740631"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

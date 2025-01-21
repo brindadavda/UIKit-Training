@@ -1,0 +1,13 @@
+query User($login: String!) {
+  user(login: $login) {
+    avatarUrl
+  }
+}
+
+mutation Mutation_Create_repo($input: CreateRepositoryInput!) {
+  createRepository(input: $input) {
+    repository {
+      stargazerCount
+    }
+  }
+}

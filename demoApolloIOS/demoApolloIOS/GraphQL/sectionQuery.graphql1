@@ -1,0 +1,8 @@
+query Footer {
+    footer(country_id: null) {
+        countryId
+        id
+        name
+        position
+    }
+}

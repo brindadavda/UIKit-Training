@@ -1,0 +1,49 @@
+{
+  "schemaNamespace" : "GraphQL",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "GraphQL",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "NameOfTarget"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {}
+        }
+    },
+  "options" : {
+      "cocoapodsCompatibleImportStatements":true,
+  },
+    "schemaDownloadConfiguration": {
+      "downloadMethod": {
+            "introspection": {
+                "endpointURL": "https://countries.trevorblades.com",
+                "httpMethod": {
+                    "POST": {}
+                },
+                "includeDeprecatedInputValues": false,
+                "outputFormat": "SDL"
+            }
+        },
+        "downloadTimeout": 60,
+        "headers": [],
+        "outputPath": "./graphql/schema.graphqls"
+    }
+
+  
+}
+
