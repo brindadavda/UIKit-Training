@@ -21,8 +21,8 @@ final class NetworkService {
         let url = URL(string: "https://api.github.com/graphql")!
         let configuration = URLSessionConfiguration.default
         
-         let expire_token = "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"
-         let current_token = "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"
+         let expire_token = "<Add_expier_token>"
+         let current_token = "<Current_token>"
         
         let store = ApolloStore()
         configuration.httpAdditionalHeaders = ["authorization": "Bearer \(current_token)"]
